@@ -1,0 +1,18 @@
+
+import React from 'react';
+import { Navigation } from './Navigation';
+
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+export const Layout = ({ children }: LayoutProps) => {
+  return (
+    <div className="min-h-screen bg-gradient-light">
+      <Navigation />
+      <main className="pt-16">
+        {children}
+      </main>
+    </div>
+  );
+};
