@@ -18,7 +18,7 @@ export const GoalProgress = () => {
             <h3 className="font-medium">Weekly Workouts</h3>
             <p className="text-sm font-medium">5/7</p>
           </div>
-          <Progress value={71} className="h-2 bg-fitness-light" indicatorClassName="bg-fitness-primary" />
+          <Progress value={71} className="h-2" />
           <p className="text-xs text-muted-foreground mt-2">2 more workouts to go this week</p>
         </div>
         
@@ -27,7 +27,7 @@ export const GoalProgress = () => {
             <h3 className="font-medium">Monthly Cardio Goal</h3>
             <p className="text-sm font-medium">8/12 hours</p>
           </div>
-          <Progress value={66} className="h-2 bg-fitness-light" indicatorClassName="bg-fitness-primary" />
+          <Progress value={66} className="h-2" />
           <p className="text-xs text-muted-foreground mt-2">4 more hours to reach your goal</p>
         </div>
         
@@ -36,7 +36,7 @@ export const GoalProgress = () => {
             <h3 className="font-medium">Strength Training</h3>
             <p className="text-sm font-medium">3/4 sessions</p>
           </div>
-          <Progress value={75} className="h-2 bg-fitness-light" indicatorClassName="bg-fitness-primary" />
+          <Progress value={75} className="h-2" />
           <p className="text-xs text-muted-foreground mt-2">1 more session this week</p>
         </div>
       </CardContent>

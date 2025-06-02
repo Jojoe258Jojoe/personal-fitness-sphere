@@ -34,7 +34,7 @@ export const RecentWorkouts = () => {
   const getIntensityColor = (intensity: string) => {
     switch (intensity) {
       case 'Low': return 'bg-blue-100 text-blue-800';
-      case 'Moderate': return 'bg-amber-100 text-amber-800';
+      case 'Moderate': return 'bg-blue-100 text-blue-800';
       case 'High': return 'bg-rose-100 text-rose-800';
       default: return 'bg-gray-100 text-gray-800';
     }

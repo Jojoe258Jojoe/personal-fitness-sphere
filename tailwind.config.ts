@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -69,7 +68,7 @@ export default {
 					dark: '#1E40AF',
 					light: '#DBEAFE',
 					success: '#10B981',
-					warning: '#F59E0B',
+					warning: '#3B82F6',
 					danger: '#EF4444'
 				}
 			},
